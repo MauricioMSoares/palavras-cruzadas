@@ -13,17 +13,76 @@ body {
     justify-content: center;
 }
 
-input {
-
-}
-
 #caixa_jogo {
+    margin-top: 25%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#caixa_jogo input {
+    width: 25%;
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+
+#caixa_jogo label {
+    width: 60%;
+    margin-top: 2%;
 }
 
 #caixa_jogo .box_input {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box_palavras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.word section{
+    border: 2px red solid;
+    font-size: 18px;
+    width: 15px;
+}
+
+.word span{
+    border: 2px red solid;
+    font-size: 18px;
+}
+
+.word.one {
+    position: absolute;
+    z-index: 101;
+}
+
+.word.two{
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    top: 305px;
+    left: 624.3px;
+}
+
+.word.three {
+    position: absolute;
+    z-index: 99;
+    bottom: 295px;
+    left: 652.4px
+}
+
+.word.four{
+    display: flex;
+    position: absolute;
+    z-index: 98;
 }
