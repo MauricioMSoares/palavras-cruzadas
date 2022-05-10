@@ -50,39 +50,140 @@ body {
     height: 200px;
 }
 
-.word section{
-    border: 2px red solid;
+.word section {
+    border: 2px #5300fa solid;
+    background-color: #6e2af7;
     font-size: 18px;
     width: 15px;
+    height: 20px;
 }
 
-.word span{
-    border: 2px red solid;
+.word span {
+    border: 2px #5300fa solid;
+    background-color: #6e2af7;
     font-size: 18px;
+    width: 15px;
+    height: 20px;
 }
 
 .word.one {
     position: absolute;
     z-index: 101;
+    top: 281px;
+    left: 619.5px;
 }
 
-.word.two{
+.word.two {
     display: flex;
     position: absolute;
     z-index: 100;
-    top: 305px;
-    left: 624.3px;
+    top: 329px;
+    left: 620px;
 }
 
 .word.three {
     position: absolute;
     z-index: 99;
     bottom: 295px;
-    left: 652.4px
+    left: 655px
 }
 
-.word.four{
+.word.four {
     display: flex;
     position: absolute;
     z-index: 98;
+    top: 352.5px;
+    right: 558.2px;
+}
+
+.word.five {
+    display: flex;
+    position: absolute;
+    z-index: 97;
+    top: 160.5px;
+}
+
+.word.six {
+    position: absolute;
+    z-index: 96;
+    top: 305px;
+    right: 596.9px;
+}
+
+.word.seven {
+    position: absolute;
+    z-index: 95; 
+    top: 209px;
+    left: 483px;
+}
+
+.word.eight {
+    display: flex;
+    position: absolute;
+    z-index: 94;
+    top: 401px;
+    left: 578.5px
+}
+
+.word.nine {
+    position: absolute;
+    z-index: 93;
+    top: 449px;
+    left: 541px;
+}
+
+.word.ten {
+    position: absolute;
+    z-index: 92;
+    top: 377px;
+    right: 540.7px;
+}
+
+.word.eleven {
+    display: flex;
+    position: absolute;
+    z-index: 91;
+    top: 257px;
+    left: 483.7px;
+}
+
+.word.twelve {
+    display: flex;
+    position: absolute;
+    z-index: 90;
+    top: 449.7px;
+    left: 541px;
+}
+
+.word.thirteen {
+    display: flex;
+    position: absolute;
+    z-index: 89;
+    top: 233.4px;
+    right: 673px;
+}
+
+.word.fourteen {
+    position: absolute;
+    z-index: 88;
+    top: 401px;
+}
+
+.word.fifiteen{
+    position: absolute;
+    z-index: 87;
+    top: 89.5px;
+    left: 541px;
+}
+
+.word.sixteen {
+    display: flex;
+    position: absolute;
+    z-index: 86;
+    top: 114px;
+    left: 522px;
+}
+
+.indicador {
+    position: absolute;
 }
