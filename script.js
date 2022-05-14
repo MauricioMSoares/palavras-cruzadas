@@ -65,6 +65,7 @@ function input3(){
     letra3_8.innerHTML = array[8].toUpperCase();
     letra3_9.innerHTML = array[9].toUpperCase();
     letra3_10.innerHTML = array[10].toUpperCase();
+    letra8_4.innerHTML = array[10].toUpperCase();
     letra3_11.innerHTML = array[11].toUpperCase();
     letra3_12.innerHTML = array[12].toUpperCase();
 
@@ -83,6 +84,7 @@ function input3(){
         letra3_10.style.color = 'greenyellow'
         letra3_11.style.color = 'greenyellow'
         letra3_12.style.color = 'greenyellow'
+        letra8_4.style.color = 'greenyellow'
         erro3.innerHTML = '✔'
         erro3.style.color = 'greenyellow'
     } else {
@@ -100,6 +102,7 @@ function input3(){
         letra3_10.style.color = 'red'
         letra3_11.style.color = 'red'
         letra3_12.style.color = 'red'
+        letra8_4.style.color = 'red'
         erro3.style.color = 'red'
         erro3.innerHTML = 'X'
         erro3.style.color = 'red'
@@ -110,6 +113,7 @@ function input4(){
     var palavra = palavra4.value;
     var array = palavra.split('')
     
+    letra6_2.innerHTML = array[0].toUpperCase();
     letra4_0.innerHTML = array[0].toUpperCase();
     letra4_1.innerHTML = array[1].toUpperCase();
     letra4_2.innerHTML = array[2].toUpperCase();
@@ -119,6 +123,7 @@ function input4(){
         letra4_0.style.color = 'greenyellow'
         letra4_1.style.color = 'greenyellow'
         letra4_2.style.color = 'greenyellow'
+        letra6_2.style.color = 'greenyellow'
         erro4.innerHTML = '✔'
         erro4.style.color = 'greenyellow'
     } else {
@@ -126,6 +131,7 @@ function input4(){
         letra4_0.style.color = 'red'
         letra4_1.style.color = 'red'
         letra4_2.style.color = 'red'
+        letra6_2.style.color = 'red'
         erro4.innerHTML = 'X'
         erro4.style.color = 'red'
     } 
@@ -135,12 +141,14 @@ function input5(){
     var palavra = palavra5.value;
     var array = palavra.split('')
     
+    letra3_0.innerHTML = array[0].toUpperCase();
     letra5_0.innerHTML = array[0].toUpperCase();
     letra5_1.innerHTML = array[1].toUpperCase();
     letra5_2.innerHTML = array[2].toUpperCase();
 
     if (palavra == 'rom'){
         palavra5.style.color = 'greenyellow'
+        letra3_0.style.color = 'greenyellow'
         letra5_0.style.color = 'greenyellow'
         letra5_1.style.color = 'greenyellow'
         letra5_2.style.color = 'greenyellow'
@@ -148,6 +156,7 @@ function input5(){
         erro5.style.color = 'greenyellow'
     } else {
         palavra5.style.color = 'red';
+        letra3_0.style.color = 'red'
         letra5_0.style.color = 'red'
         letra5_1.style.color = 'red'
         letra5_2.style.color = 'red'
@@ -225,11 +234,13 @@ function input8(){
     letra8_2.innerHTML = array[2].toUpperCase();
     letra8_3.innerHTML = array[3].toUpperCase();
     letra8_4.innerHTML = array[4].toUpperCase();
+    letra3_10.innerHTML = array[4].toUpperCase();
     letra8_5.innerHTML = array[5].toUpperCase();
     letra8_6.innerHTML = array[6].toUpperCase();
     letra8_7.innerHTML = array[7].toUpperCase();
     letra8_8.innerHTML = array[8].toUpperCase();
     letra8_9.innerHTML = array[9].toUpperCase();
+    letra6_4.innerHTML = array[9].toUpperCase();
     letra8_10.innerHTML = array[10].toUpperCase();
     letra8_11.innerHTML = array[11].toUpperCase();
     letra8_12.innerHTML = array[12].toUpperCase();
@@ -251,6 +262,8 @@ function input8(){
         letra8_11.style.color = 'greenyellow'
         letra8_12.style.color = 'greenyellow'
         letra8_13.style.color = 'greenyellow'
+        letra6_4.style.color = 'greenyellow'
+        letra3_10.style.color = 'greenyellow'
         erro8.innerHTML = '✔'
         erro8.style.color = 'greenyellow'
     } else {
@@ -269,6 +282,8 @@ function input8(){
         letra8_11.style.color = 'red'
         letra8_12.style.color = 'red'
         letra8_13.style.color = 'red'
+        letra6_4.style.color = 'red'
+        letra3_10.style.color = 'red'
         erro8.style.color = 'red'
         erro8.innerHTML = 'X'
         erro8.style.color = 'red'
@@ -306,17 +321,20 @@ function input10(){
     
     letra10_0.innerHTML = array[0].toUpperCase();
     letra10_1.innerHTML = array[1].toUpperCase();
+    letra8_12.innerHTML = array[1].toUpperCase();
     
     if (palavra == 'cs'){
         palavra10.style.color = 'greenyellow'
         letra10_0.style.color = 'greenyellow'
         letra10_1.style.color = 'greenyellow'
+        letra8_12.style.color = 'greenyellow'
         erro10.innerHTML = '✔'
         erro10.style.color = 'greenyellow'
     } else {
         palavra10.style.color = 'red'
         letra10_0.style.color = 'red'
         letra10_1.style.color = 'red'
+        letra8_12.style.color = 'red'
         erro10.innerHTML = 'X'
         erro10.style.color = 'red'
     } 
@@ -326,6 +344,7 @@ function input11(){
     var palavra = palavra11.value;
     var array = palavra.split('')
 
+    letra7_2.innerHTML = array[0].toUpperCase();
     letra11_0.innerHTML = array[0].toUpperCase();
     letra11_1.innerHTML = array[1].toUpperCase();
     letra11_2.innerHTML = array[2].toUpperCase();
@@ -336,7 +355,8 @@ function input11(){
     letra11_7.innerHTML = array[7].toUpperCase();
     letra11_8.innerHTML = array[8].toUpperCase();
     letra11_9.innerHTML = array[9].toUpperCase();
-
+    letra3_4.innerHTML = array[9].toUpperCase();
+    
     if (palavra == 'addressbus'){
         palavra11.style.color = 'greenyellow';
         letra11_0.style.color = 'greenyellow'
@@ -349,6 +369,8 @@ function input11(){
         letra11_7.style.color = 'greenyellow'
         letra11_8.style.color = 'greenyellow'
         letra11_9.style.color = 'greenyellow'
+        letra3_4.style.color = 'greenyellow'
+        letra7_2.style.color = 'greenyellow'
         erro11.innerHTML = '✔'
         erro11.style.color = 'greenyellow'
     } else {
@@ -363,6 +385,8 @@ function input11(){
         letra11_7.style.color = 'red'
         letra11_8.style.color = 'red'
         letra11_9.style.color = 'red'
+        letra3_4.style.color = 'red'
+        letra7_2.style.color = 'red'
         erro11.style.color = 'red'
         erro11.innerHTML = 'X'
         erro11.style.color = 'red'
@@ -373,6 +397,7 @@ function input12(){
     var palavra = palavra12.value;
     var array = palavra.split('')
     
+    letra9_0.innerHTML = array[0].toUpperCase();
     letra12_0.innerHTML = array[0].toUpperCase();
     letra12_1.innerHTML = array[1].toUpperCase();
     letra12_2.innerHTML = array[2].toUpperCase();
@@ -380,25 +405,32 @@ function input12(){
     letra12_4.innerHTML = array[4].toUpperCase();
     letra12_5.innerHTML = array[5].toUpperCase();
     letra12_6.innerHTML = array[6].toUpperCase();
+    letra3_12.innerHTML = array[6].toUpperCase();
     
     if (palavra == 'databus'){
         palavra12.style.color = 'greenyellow'
+        letra9_0.style.color = 'greenyellow'
         letra12_0.style.color = 'greenyellow'
+        letra12_1.style.color = 'greenyellow'
         letra12_2.style.color = 'greenyellow'
         letra12_3.style.color = 'greenyellow'
         letra12_4.style.color = 'greenyellow'
         letra12_5.style.color = 'greenyellow'
         letra12_6.style.color = 'greenyellow'
+        letra3_12.style.color = 'greenyellow'
         erro12.innerHTML = '✔'
         erro12.style.color = 'greenyellow'
     } else {
         palavra12.style.color = 'red'
+        letra9_0.style.color = 'red'
         letra12_0.style.color = 'red'
+        letra12_1.style.color = 'red'
         letra12_2.style.color = 'red'
         letra12_3.style.color = 'red'
         letra12_4.style.color = 'red'
         letra12_5.style.color = 'red'
         letra12_6.style.color = 'red'
+        letra3_12.style.color = 'red'
         erro12.innerHTML = 'X'
         erro12.style.color = 'red'
     } 
@@ -408,6 +440,7 @@ function input13(){
     var palavra = palavra13.value;
     var array = palavra.split('')
 
+    letra3_3.innerHTML = array[0].toUpperCase();
     letra13_0.innerHTML = array[0].toUpperCase();
     letra13_1.innerHTML = array[1].toUpperCase();
 
@@ -415,12 +448,14 @@ function input13(){
         palavra13.style.color = 'greenyellow'
         letra13_0.style.color = 'greenyellow'
         letra13_1.style.color = 'greenyellow'
+        letra3_3.style.color = 'greenyellow'
         erro13.innerHTML = '✔'
         erro13.style.color = 'greenyellow'
     } else {
         palavra13.style.color = 'red';
         letra13_0.style.color = 'red'
         letra13_1.style.color = 'red'
+        letra3_3.style.color = 'red'
         erro13.style.color = 'red'
         erro13.innerHTML = 'X'
         erro13.style.color = 'red'
@@ -431,6 +466,7 @@ function input14(){
     var palavra = palavra14.value;
     var array = palavra.split('')
 
+    letra8_5.innerHTML = array[0].toUpperCase();
     letra14_0.innerHTML = array[0].toUpperCase();
     letra14_1.innerHTML = array[1].toUpperCase();
 
@@ -438,12 +474,14 @@ function input14(){
         palavra14.style.color = 'greenyellow'
         letra14_0.style.color = 'greenyellow'
         letra14_1.style.color = 'greenyellow'
+        letra8_5.style.color = 'greenyellow'
         erro14.innerHTML = '✔'
         erro14.style.color = 'greenyellow'
     } else {
         palavra14.style.color = 'red';
         letra14_0.style.color = 'red'
         letra14_1.style.color = 'red'
+        letra8_5.style.color = 'red'
         erro14.style.color = 'red'
         erro14.innerHTML = 'X'
         erro14.style.color = 'red'
