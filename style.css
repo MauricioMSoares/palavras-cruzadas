@@ -169,7 +169,7 @@ body {
     top: 401px;
 }
 
-.word.fifiteen{
+.word.fifteen{
     position: absolute;
     z-index: 87;
     top: 89.5px;
@@ -186,4 +186,11 @@ body {
 
 .indicador {
     position: absolute;
+}
+
+input {
+    border-radius: 5px;
+    border: #5300fa;
+    background-color: #cba1fc;
+    color: white;
 }
